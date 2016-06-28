@@ -1,3 +1,7 @@
+// The Steg class (defined in provided.h) allows its client to hide a secret message within
+// a string, and conversely to extract and decode a secret message that was previously
+// encoded inside a carrier string. (see comments within the hide() and reveal() methods)
+
 #include "provided.h"
 #include <string>
 using namespace std;
@@ -84,7 +88,6 @@ bool Steg::reveal(const string& hostIn, string& msg)
 	int N = divideString(hostIn, sv);
 
 	  // Gather the trailing tabs/spaces into one string
-	  // !!! start from the end instead!
 	string trailingTabsSpaces;
 	for (int i = 0; i < N; i++)
 	{
