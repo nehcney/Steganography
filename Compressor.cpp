@@ -1,5 +1,10 @@
+// The Compressor class (defined in provided.h) uses a Lempel-Ziv-variant compression 
+// algorithm to compress encoded messages into a series of numbers. Conversely it can
+// take a compressed series of numbers and decompress it back into the original secret
+// message.
+
 #include "provided.h"
-#include "HashTable.h"	// user added
+#include "HashTable.h"
 #include <string>
 #include <vector>
 using namespace std;
