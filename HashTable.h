@@ -1,6 +1,6 @@
-// The HashTable class is an open hash table with a specified number of buckets and a
-// specified capacity. When adding an association, one can designate whether or not it
-// is permanent. If it is permanent, it cannot be overwritten. Otherwise, once the hash
+// The HashTable class is a templated open hash table with a specified number of buckets 
+// and a specified capacity. When adding an association, one can designate whether or not 
+// it is permanent. If it is permanent, it cannot be overwritten. Otherwise, once the hash
 // table reaches capacity, it will automatically replace the oldest assocation. I keep
 // track of the recent assocations by using an embedded doubly-linked list within the
 // hash table nodes.
