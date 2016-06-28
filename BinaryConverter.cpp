@@ -1,3 +1,9 @@
+// The BinaryConverter class (defined in provided.h) is used to convert a
+// vector of unsigned shorts into a string containing just tabs and spaces,
+// representing the binary form (1s and 0s) of the integers in the vector.
+// Conversely, it can take a string of tabs and spaces and convert it back
+// into a vector of unsigned short integers.
+
 #include "provided.h"
 #include <string>
 #include <vector>
@@ -85,7 +91,7 @@ bool convertBitStringToNumber(string bitString, unsigned short& number)
 //	computeHash Functions
 /////////////////////////////////////
 
-unsigned int computeHash(string key)	// why not const string& ?
+unsigned int computeHash(string key)
 {
 	unsigned int total = 0;
 	int size = key.length();
