@@ -13,4 +13,6 @@ Additional classes include http() (written by Carey Nachenberg) which aids in do
 
 One last note: the computeHash() functions are located in BinaryConverter.cpp.
 
+Full project specs can be found [here](https://github.com/nehcney/Steganography/blob/d63d171854fe3aca32e13d22e14fe6942b3a436e/P4%20-%20Spec.pdf).
+
 Copyright (c) 2016 Yen Chen
